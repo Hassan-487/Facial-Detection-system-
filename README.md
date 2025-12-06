@@ -1,8 +1,6 @@
 # Facial-Detection-system-
 
-Here is a comprehensive **README.md** file tailored specifically for your project. You can copy-paste this directly into your GitHub repository.
 
------
 
 # Secure Facial Recognition Attendance System
 
@@ -135,10 +133,4 @@ To enable **Email Anomaly Detection** (alerts for after-hours attendance):
   * Ensure good lighting.
   * Make sure only **one** face is visible in the frame.
 
-## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome\! Feel free to check the [issues page](https://www.google.com/search?q=https://github.com/Hassan-487/Facial-Detection_Attendance-System/issues).
-
-## 📜 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
