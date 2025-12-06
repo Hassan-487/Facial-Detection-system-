@@ -10,17 +10,14 @@ if not REQUESTS_VERIFY:
     import urllib3
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-# --- Haar cascade for face detection ---
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 def enroll_user():
-    # 1. Get user name
     name = input("Enter the user's name: ")
     if not name:
         print("Enrollment cancelled.")
         return
 
-    # 2. Initialize webcam
     cap = cv2.VideoCapture(0)
     if not cap.isOpened():
         print("Error: Cannot open webcam.")
